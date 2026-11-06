@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Venta de Accesorios para Celular</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0; padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    .productos {
+      max-width: 900px;
+      margin: 40px auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 0 10px;
+    }
+    .producto {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      text-align: center;
+      padding: 15px;
+    }
+    .producto img {
+      max-width: 100%;
+      border-radius: 6px;
+      height: 180px;
+      object-fit: contain;
+    }
+    .producto h2 {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .producto p {
+      font-size: 0.9em;
+      margin: 10px 0 15px;
+    }
+    .precio {
+      color: #007bff;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    /* Botón WhatsApp */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+    .whatsapp-btn:hover {
+      background-color: #1da851;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Venta de Accesorios para Celular</h1>
+  <p>Cargadores, Protectores, Micas de Vidrio y más</p>
+</header>
+
+<section class="productos">
+  <div class="producto">
+    <img src="https://example.com/cargador.jpg" alt="Cargador rápido" />
+    <h2>Cargador Rápido</h2>
+    <p>Carga rápida para tu celular con protección contra sobrecarga.</p>
+    <p class="precio">S/ 45.00</p>
+  </div>
+  
+  <div class="producto">
+    <img src="https://example.com/protector.jpg" alt="Protector de celular" />
+    <h2>Protector de Celular</h2>
+    <p>Resistente y ligero para proteger tu celular de golpes y rayones.</p>
+    <p class="precio">S/ 35.00</p>
+  </div>
+  
+  <div class="producto">
+    <img src="https://example.com/mica.jpg" alt="Mica de vidrio templado" />
+    <h2>Mica de Vidrio Templado</h2>
+    <p>Protección extra para la pantalla, anti rayaduras y golpes.</p>
+    <p class="precio">S/ 25.00</p>
+  </div>
+</section>
+
+<!-- Botón de WhatsApp -->
+<a href="https://wa.me/51987654321" target="_blank" class="whatsapp-btn" title="Contáctanos por WhatsApp">
+  &#x1F4AC;
+</a>
+
+</body>
+</html>
